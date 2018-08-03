@@ -31,6 +31,7 @@
                 "install -D apply_extra /app/bin/apply_extra",
                 "install -D processing /app/bin/processing",
                 "install -D appdata.xml /app/share/metainfo/org.processing.processingide.appdata.xml",
+                "install -D desktop.template /app/share/applications/org.processing.processingide.desktop",
                 "install -D processing-pde.xml /app/share/mime/packages/org.processing.processingide.xml",
                 "install -D pde-64.png /app/share/icons/hicolor/64x64/apps/org.processing.processingide.png",
                 "install -D pde-128.png /app/share/icons/hicolor/128x128/apps/org.processing.processingide.png"
@@ -62,6 +63,7 @@
                         "rm -r processing-3.4",
                         "install -D lib/desktop.template export/share/applications/org.processing.processingide.desktop",
                         "sed -i -e 's|<BINARY_LOCATION>|processing|' -e 's|<ICON_NAME>|org.processing.processingide|' export/share/applications/org.processing.processingide.desktop",
+                        "sed -i -e 's|Programming;||' export/share/applications/org.processing.processingide.desktop",
                         "install -D lib/icons/pde-16.png export/share/icons/hicolor/16x16/apps/org.processing.processingide.png",
                         "install -D lib/icons/pde-16.png export/share/icons/hicolor/16x16/mimetypes/org.processing.processingide-text-x-processing.png",
                         "install -D lib/icons/pde-32.png export/share/icons/hicolor/32x32/apps/org.processing.processingide.png",
@@ -105,6 +107,16 @@
                 {
                     "type": "patch",
                     "path": "processing-mime-type-icon.patch",
+                    "strip-components": 3
+                },
+                {
+                    "type": "file",
+                    "url": "https://raw.githubusercontent.com/processing/processing/processing-0265-3.4/build/linux/desktop.template",
+                    "sha256": "8a241bd3c41c52fb7a7ea4a67aa2657767e9c9e8a612dd5bca62866becdf873b"
+                },
+                {
+                    "type": "patch",
+                    "path": "processing-desktop-template-icon.patch",
                     "strip-components": 3
                 },
                 {
