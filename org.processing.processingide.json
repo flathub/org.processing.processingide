@@ -1,7 +1,6 @@
 {
     "app-id": "org.processing.processingide",
     "runtime": "org.freedesktop.Platform",
-    "version": "3.5.3",
     "runtime-version": "1.6",
     "sdk": "org.freedesktop.Sdk",
     "build-options": {
