@@ -14,7 +14,8 @@
         "--socket=x11",
         "--share=ipc",
         "--device=all",
-        "--filesystem=home"
+        "--filesystem=home",
+        "--share=network"
     ],
     "cleanup": [
         "/include",
