@@ -1,6 +1,7 @@
 {
     "app-id": "org.processing.processingide",
     "runtime": "org.freedesktop.Platform",
+    "version": "3.5.3",
     "runtime-version": "1.6",
     "sdk": "org.freedesktop.Sdk",
     "build-options": {
@@ -40,17 +41,17 @@
                 {
                     "only-arches": ["x86_64"],
                     "type": "extra-data",
-                    "url": "https://github.com/processing/processing/releases/download/processing-0265-3.4/processing-3.4-linux64.tgz",
-                    "sha256": "62a454252f7d291da3263155e286601776ddf4790eda8b8662bac34a855e5c8e",
-                    "size": 132458798,
+                    "url": "https://github.com/processing/processing/releases/download/processing-0269-3.5.3/processing-3.5.3-linux64.tgz",
+                    "sha256": "3d52aaa898fcde52e3bcb976c06f2b8b56a60209532c1720229da9eb0cd175fa",
+                    "size": 138126131,
                     "filename": "processing.tgz"
                 },
                 {
                     "only-arches": ["arm"],
                     "type": "extra-data",
-                    "url": "https://github.com/processing/processing/releases/download/processing-0265-3.4/processing-3.4-linux-armv6hf.tgz",
-                    "sha256": "f37ecf18ff50cc69363bb1efe28d8e95b9fb8df5cdccb1b037934c6b83e956fd",
-                    "size": 100380116,
+                    "url": "https://github.com/processing/processing/releases/download/processing-0269-3.5.3/processing-3.5.3-linux-armv6hf.tgz",
+                    "sha256": "cbb1e9af16af057c7b0dd0ba2c6d447621250145d96da26cbb66b7c128d87d94",
+                    "size": 100144409,
                     "filename": "processing.tgz"
                 },
                 {
