@@ -1,5 +1,4 @@
 {
-    "$schema": "https://raw.githubusercontent.com/TingPing/flatpak-manifest-schema/master/flatpak-manifest.schema",
     "app-id": "org.processing.processingide",
     "runtime": "org.freedesktop.Platform",
     "runtime-version": "19.08",
