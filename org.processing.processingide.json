@@ -1,4 +1,5 @@
 {
+    "$schema": "https://raw.githubusercontent.com/TingPing/flatpak-manifest-schema/master/flatpak-manifest.schema",
     "app-id": "org.processing.processingide",
     "runtime": "org.freedesktop.Platform",
     "runtime-version": "18.08",
@@ -29,29 +30,20 @@
             "name": "processing",
             "buildsystem": "simple",
             "build-commands": [
-                "install -D apply_extra /app/bin/apply_extra",
                 "install -D processing /app/bin/processing",
                 "install -D appdata.xml /app/share/metainfo/org.processing.processingide.appdata.xml",
                 "install -D desktop.template /app/share/applications/org.processing.processingide.desktop",
                 "install -D processing-pde.xml /app/share/mime/packages/org.processing.processingide.xml",
                 "install -D pde-64.png /app/share/icons/hicolor/64x64/apps/org.processing.processingide.png",
-                "install -D pde-128.png /app/share/icons/hicolor/128x128/apps/org.processing.processingide.png"
+                "install -D pde-128.png /app/share/icons/hicolor/128x128/apps/org.processing.processingide.png",
+                "bash ./apply_extra"
             ],
             "sources": [
                 {
-                    "only-arches": ["x86_64"],
                     "type": "extra-data",
-                    "url": "https://github.com/processing/processing/releases/download/processing-0269-3.5.3/processing-3.5.3-linux64.tgz",
-                    "sha256": "3d52aaa898fcde52e3bcb976c06f2b8b56a60209532c1720229da9eb0cd175fa",
-                    "size": 138126131,
-                    "filename": "processing.tgz"
-                },
-                {
-                    "only-arches": ["arm"],
-                    "type": "extra-data",
-                    "url": "https://github.com/processing/processing/releases/download/processing-0269-3.5.3/processing-3.5.3-linux-armv6hf.tgz",
-                    "sha256": "cbb1e9af16af057c7b0dd0ba2c6d447621250145d96da26cbb66b7c128d87d94",
-                    "size": 100144409,
+                    "url": "https://github.com/processing/processing/releases/download/processing-0270-3.5.4/processing-3.5.4-linux64.tgz",
+                    "sha256": "ded445069db3c6fc384fe4da89ca7aa7d0a4bd2536c5aa8de3fa4e115de3025b",
+                    "size": 138144543,
                     "filename": "processing.tgz"
                 },
                 {
