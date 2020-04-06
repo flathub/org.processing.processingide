@@ -1,30 +1,12 @@
 diff --git a/build/linux/appdata.xml b/build/linux/appdata.xml
-index f0fc87f9c..612d40d0e 100644
---- a/build/linux/appdata.xml
-+++ b/build/linux/appdata.xml
-@@ -2,7 +2,8 @@
- <!-- See https://www.freedesktop.org/software/appstream/docs/chap-Quickstart.html -->
- <component type="desktop-application">
-   <id>org.processing.processingide.desktop</id>
--  <metadata_license>GPLv3</metadata_license>
-+  <metadata_license>CC0-1.0</metadata_license>
-+  <project_license>GPL-2.0</project_license>
-   <developer_name>Processing Foundation</developer_name>
+--- a/build/linux/appdata.xml	2020-04-06 22:17:37.438680993 +0200
++++ b/build/linux/appdata.xml	2020-04-06 22:18:28.767254529 +0200
+@@ -32,6 +32,8 @@
+   <content_rating type="oars-1.1" />
  
-   <name>Processing IDE</name>
-@@ -28,6 +29,15 @@
-     </screenshot>
-   </screenshots>
- 
-+  <releases>
+   <releases>
 +    <release date="2020-01-17" version="3.5.4" />
 +    <release date="2019-02-03" version="3.5.3" />
-+    <release date="2018-07-26" version="3.4" />
-+    <release date="2018-07-22" version="3.3.7.2" />
-+    <release date="2018-07-01" version="3.3.7.1" />
-+    <release date="2018-03-13" version="3.3.7" />
-+  </releases>
-+
-   <url type="homepage">http://www.processing.org/</url>
-   <url type="help">https://processing.org/reference/</url>
-   <url type="bugtracker">https://github.com/processing/processing/issues?q=is%3Aopen</url>
+     <release date="2018-07-26" version="3.4" />
+     <release date="2018-07-22" version="3.3.7.2" />
+     <release date="2018-07-01" version="3.3.7.1" />

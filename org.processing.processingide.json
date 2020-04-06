@@ -30,7 +30,9 @@
             "name": "processing",
             "buildsystem": "simple",
             "build-commands": [
-                "install -D processing /app/bin/processing",
+                "install -d /app/share/processing",
+                "cp -r * /app/share/processing",
+                "install -D processing.sh /app/bin/processing",
                 "install -D appdata.xml /app/share/metainfo/org.processing.processingide.appdata.xml",
                 "install -D desktop.template /app/share/applications/org.processing.processingide.desktop",
                 "install -D processing-pde.xml /app/share/mime/packages/org.processing.processingide.xml",
@@ -65,8 +67,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://raw.githubusercontent.com/processing/processing/processing-0265-3.4/build/linux/appdata.xml",
-                    "sha256": "5dba86675af37ba9f7833ad6c862679da7e958187593c329f6141a47c2d5e4e6"
+                    "url": "https://raw.githubusercontent.com/processing/processing/processing-0270-3.5.4/build/linux/appdata.xml",
+                    "sha256": "e6a142a75dece42fdee52cba1f9258f866bc95bc6318f04e92a92e1a301cac39"
                 },
                 {
                     "type": "patch",
@@ -75,7 +77,7 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://raw.githubusercontent.com/processing/processing/processing-0265-3.4/build/linux/processing-pde.xml",
+                    "url": "https://raw.githubusercontent.com/processing/processing/processing-0270-3.5.4/build/linux/processing-pde.xml",
                     "sha256": "79e70baa8c1d81a60ac1bc59ea642bf80c638e5cb0ec7fe8372503bb8f2baa7f"
                 },
                 {
@@ -85,7 +87,7 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://raw.githubusercontent.com/processing/processing/processing-0265-3.4/build/linux/desktop.template",
+                    "url": "https://raw.githubusercontent.com/processing/processing/processing-0270-3.5.4/build/linux/desktop.template",
                     "sha256": "8a241bd3c41c52fb7a7ea4a67aa2657767e9c9e8a612dd5bca62866becdf873b"
                 },
                 {
@@ -95,13 +97,21 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://raw.githubusercontent.com/processing/processing/processing-0265-3.4/build/shared/lib/icons/pde-64.png",
+                    "url": "https://raw.githubusercontent.com/processing/processing/processing-0270-3.5.4/build/shared/lib/icons/pde-64.png",
                     "sha256": "feec5cf9be795d274296f39796b15994763f335be01c524b6216cf03de0a1b99"
                 },
                 {
                     "type": "file",
-                    "url": "https://raw.githubusercontent.com/processing/processing/processing-0265-3.4/build/shared/lib/icons/pde-128.png",
+                    "url": "https://raw.githubusercontent.com/processing/processing/processing-0270-3.5.4/build/shared/lib/icons/pde-128.png",
                     "sha256": "1ee11856d783a44a5d4464206ae98d856dee837b9dc94ec5b06a4ca3b6f1e999"
+                },
+                {
+                    "type": "script",
+                    "dest-filename": "processing.sh",
+                    "commands": [
+                        "#!/bin/sh",
+                        "exec /app/share/processing/processing $@"
+                    ]
                 }
             ]
         }
