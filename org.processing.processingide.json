@@ -36,51 +36,32 @@
                 "install -D processing-pde.xml /app/share/mime/packages/org.processing.processingide.xml",
                 "install -D pde-64.png /app/share/icons/hicolor/64x64/apps/org.processing.processingide.png",
                 "install -D pde-128.png /app/share/icons/hicolor/128x128/apps/org.processing.processingide.png",
-                "bash ./apply_extra"
+                "install -D lib/desktop.template export/share/applications/org.processing.processingide.desktop",
+                "sed -i -e 's|<BINARY_LOCATION>|processing|' -e 's|<ICON_NAME>|org.processing.processingide|' export/share/applications/org.processing.processingide.desktop",
+                "sed -i -e 's|Programming;||' export/share/applications/org.processing.processingide.desktop",
+                "install -D lib/icons/pde-16.png export/share/icons/hicolor/16x16/apps/org.processing.processingide.png",
+                "install -D lib/icons/pde-16.png export/share/icons/hicolor/16x16/mimetypes/org.processing.processingide-text-x-processing.png",
+                "install -D lib/icons/pde-32.png export/share/icons/hicolor/32x32/apps/org.processing.processingide.png",
+                "install -D lib/icons/pde-32.png export/share/icons/hicolor/32x32/mimetypes/org.processing.processingide-text-x-processing.png",
+                "install -D lib/icons/pde-48.png export/share/icons/hicolor/48x48/apps/org.processing.processingide.png",
+                "install -D lib/icons/pde-48.png export/share/icons/hicolor/48x48/mimetypes/org.processing.processingide-text-x-processing.png",
+                "install -D lib/icons/pde-64.png export/share/icons/hicolor/64x64/apps/org.processing.processingide.png",
+                "install -D lib/icons/pde-64.png export/share/icons/hicolor/64x64/mimetypes/org.processing.processingide-text-x-processing.png",
+                "install -D lib/icons/pde-128.png export/share/icons/hicolor/128x128/apps/org.processing.processingide.png",
+                "install -D lib/icons/pde-128.png export/share/icons/hicolor/128x128/mimetypes/org.processing.processingide-text-x-processing.png",
+                "install -D lib/icons/pde-256.png export/share/icons/hicolor/256x256/apps/org.processing.processingide.png",
+                "install -D lib/icons/pde-256.png export/share/icons/hicolor/256x256/mimetypes/org.processing.processingide-text-x-processing.png",
+                "install -D lib/icons/pde-512.png export/share/icons/hicolor/512x512/apps/org.processing.processingide.png",
+                "install -D lib/icons/pde-512.png export/share/icons/hicolor/512x512/mimetypes/org.processing.processingide-text-x-processing.png",
+                "install -D lib/icons/pde-1024.png export/share/icons/hicolor/1024x1024/apps/org.processing.processingide.png",
+                "install -D lib/icons/pde-1024.png export/share/icons/hicolor/1024x1024/mimetypes/org.processing.processingide-text-x-processing.png"
             ],
             "sources": [
                 {
-                    "type": "extra-data",
+                    "type": "archive",
                     "url": "https://github.com/processing/processing/releases/download/processing-0270-3.5.4/processing-3.5.4-linux64.tgz",
                     "sha256": "ded445069db3c6fc384fe4da89ca7aa7d0a4bd2536c5aa8de3fa4e115de3025b",
-                    "size": 138144543,
-                    "filename": "processing.tgz"
-                },
-                {
-                    "type": "script",
-                    "dest-filename": "apply_extra",
-                    "commands": [
-                        "tar -xf processing.tgz",
-                        "rm processing.tgz",
-                        "mv processing-3.4/* .",
-                        "rm -r processing-3.4",
-                        "install -D lib/desktop.template export/share/applications/org.processing.processingide.desktop",
-                        "sed -i -e 's|<BINARY_LOCATION>|processing|' -e 's|<ICON_NAME>|org.processing.processingide|' export/share/applications/org.processing.processingide.desktop",
-                        "sed -i -e 's|Programming;||' export/share/applications/org.processing.processingide.desktop",
-                        "install -D lib/icons/pde-16.png export/share/icons/hicolor/16x16/apps/org.processing.processingide.png",
-                        "install -D lib/icons/pde-16.png export/share/icons/hicolor/16x16/mimetypes/org.processing.processingide-text-x-processing.png",
-                        "install -D lib/icons/pde-32.png export/share/icons/hicolor/32x32/apps/org.processing.processingide.png",
-                        "install -D lib/icons/pde-32.png export/share/icons/hicolor/32x32/mimetypes/org.processing.processingide-text-x-processing.png",
-                        "install -D lib/icons/pde-48.png export/share/icons/hicolor/48x48/apps/org.processing.processingide.png",
-                        "install -D lib/icons/pde-48.png export/share/icons/hicolor/48x48/mimetypes/org.processing.processingide-text-x-processing.png",
-                        "install -D lib/icons/pde-64.png export/share/icons/hicolor/64x64/apps/org.processing.processingide.png",
-                        "install -D lib/icons/pde-64.png export/share/icons/hicolor/64x64/mimetypes/org.processing.processingide-text-x-processing.png",
-                        "install -D lib/icons/pde-128.png export/share/icons/hicolor/128x128/apps/org.processing.processingide.png",
-                        "install -D lib/icons/pde-128.png export/share/icons/hicolor/128x128/mimetypes/org.processing.processingide-text-x-processing.png",
-                        "install -D lib/icons/pde-256.png export/share/icons/hicolor/256x256/apps/org.processing.processingide.png",
-                        "install -D lib/icons/pde-256.png export/share/icons/hicolor/256x256/mimetypes/org.processing.processingide-text-x-processing.png",
-                        "install -D lib/icons/pde-512.png export/share/icons/hicolor/512x512/apps/org.processing.processingide.png",
-                        "install -D lib/icons/pde-512.png export/share/icons/hicolor/512x512/mimetypes/org.processing.processingide-text-x-processing.png",
-                        "install -D lib/icons/pde-1024.png export/share/icons/hicolor/1024x1024/apps/org.processing.processingide.png",
-                        "install -D lib/icons/pde-1024.png export/share/icons/hicolor/1024x1024/mimetypes/org.processing.processingide-text-x-processing.png"
-                    ]
-                },
-                {
-                    "type": "script",
-                    "dest-filename": "processing",
-                    "commands": [
-                        "exec /app/extra/processing $@"
-                    ]
+                    "size": 138144543
                 },
                 {
                     "type": "file",
