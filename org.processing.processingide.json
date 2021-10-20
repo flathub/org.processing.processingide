@@ -1,7 +1,7 @@
 {
     "app-id": "org.processing.processingide",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "19.08",
+    "runtime-version": "21.08",
     "sdk": "org.freedesktop.Sdk",
     "build-options": {
         "cflags": "-O2 -g",
@@ -15,6 +15,7 @@
         "--share=ipc",
         "--device=all",
         "--filesystem=home",
+        "--socket=pulseaudio",
         "--share=network"
     ],
     "cleanup": [
@@ -61,8 +62,7 @@
                 {
                     "type": "archive",
                     "url": "https://github.com/processing/processing/releases/download/processing-0270-3.5.4/processing-3.5.4-linux64.tgz",
-                    "sha256": "ded445069db3c6fc384fe4da89ca7aa7d0a4bd2536c5aa8de3fa4e115de3025b",
-                    "size": 138144543
+                    "sha256": "ded445069db3c6fc384fe4da89ca7aa7d0a4bd2536c5aa8de3fa4e115de3025b"
                 },
                 {
                     "type": "file",
