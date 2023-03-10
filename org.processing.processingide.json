@@ -3,6 +3,7 @@
     "runtime": "org.freedesktop.Platform",
     "runtime-version": "22.08",
     "sdk": "org.freedesktop.Sdk",
+    "command": "processing",
     "build-options": {
         "cflags": "-O2 -g",
         "cxxflags": "-O2 -g",
