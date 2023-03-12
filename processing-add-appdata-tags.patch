@@ -1,7 +1,7 @@
 diff --git a/build/linux/appdata.xml b/build/linux/appdata.xml
 --- a/build/linux/appdata.xml	2020-04-06 22:17:37.438680993 +0200
 +++ b/build/linux/appdata.xml	2020-04-06 22:18:28.767254529 +0200
-@@ -32,6 +32,18 @@
+@@ -32,6 +32,19 @@
    <content_rating type="oars-1.1" />
  
    <releases>
