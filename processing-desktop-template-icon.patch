@@ -3,8 +3,8 @@ index f8cf6d962..e59dc7007 100644
 --- a/build/linux/desktop.template
 +++ b/build/linux/desktop.template
 @@ -3,10 +3,10 @@ Type=Application
- Name=Processing IDE
- GenericName=Processing IDE
+ Name=Processing
+ GenericName=Processing
  Comment=Open-source software prototyping platform
 -Exec=<BINARY_LOCATION> %u
 -Icon=<ICON_NAME>
