@@ -62,12 +62,12 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/processing/processing4/releases/download/processing-1292-4.2/processing-4.2-linux-x64.tgz",
-                    "sha256": "8465313ef2e9bc566f248bc812691db73eadcff0b68a6e595eacaf68489282d7"
+                    "url": "https://github.com/processing/processing4/releases/download/processing-1293-4.3/processing-4.3-linux-x64.tgz",
+                    "sha256": "3f655b3076158148e7ca9ac94a380d35b925436a5829e9d653715a3146ef3e33"
                 },
                 {
                     "type": "file",
-                    "url": "https://raw.githubusercontent.com/processing/processing4/processing-1292-4.2/build/linux/appdata.xml",
+                    "url": "https://raw.githubusercontent.com/processing/processing4/processing-1293-4.3/build/linux/appdata.xml",
                     "sha256": "e6a142a75dece42fdee52cba1f9258f866bc95bc6318f04e92a92e1a301cac39"
                 },
                 {
@@ -77,7 +77,7 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://raw.githubusercontent.com/processing/processing4/processing-1292-4.2/build/linux/processing-pde.xml",
+                    "url": "https://raw.githubusercontent.com/processing/processing4/processing-1293-4.3/build/linux/processing-pde.xml",
                     "sha256": "79e70baa8c1d81a60ac1bc59ea642bf80c638e5cb0ec7fe8372503bb8f2baa7f"
                 },
                 {
@@ -87,8 +87,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://raw.githubusercontent.com/processing/processing4/processing-1292-4.2/build/linux/desktop.template",
-                    "sha256": "d34cfb197caaa8b9b30d0ed8dde210735e42a6fd4d481388df11c239770f6c44"
+                    "url": "https://raw.githubusercontent.com/processing/processing4/processing-1293-4.3/build/linux/desktop.template",
+                    "sha256": "2cec85dab5d51b3e06d75409649d3901a721a881b2f98c6335693b83522ba100"
                 },
                 {
                     "type": "patch",
@@ -97,13 +97,13 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://raw.githubusercontent.com/processing/processing4/processing-1292-4.2/build/shared/lib/icons/pde-64.png",
-                    "sha256": "d4a3619569e06f8ea8e7d8576a89b045c4e6bdc7623561ed086e1173e3a421b2"
+                    "url": "https://raw.githubusercontent.com/processing/processing4/processing-1293-4.3/build/shared/lib/icons/pde-64.png",
+                    "sha256": "6dd8f1727729f2b102692067c0806396666993e02fce809c04ddc24d0836c986"
                 },
                 {
                     "type": "file",
-                    "url": "https://raw.githubusercontent.com/processing/processing4/processing-1292-4.2/build/shared/lib/icons/pde-128.png",
-                    "sha256": "2cab3cd180754f4210170182bb478cabf742b98a03a3a7f8942dc39bdf7555ba"
+                    "url": "https://raw.githubusercontent.com/processing/processing4/processing-1293-4.3/build/shared/lib/icons/pde-128.png",
+                    "sha256": "c441588ff0e485ebae5d00c50bed640aec9a8fded79e9ebe49baf480c27a101d"
                 },
                 {
                     "type": "script",
