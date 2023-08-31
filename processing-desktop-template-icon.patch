@@ -2,17 +2,18 @@ diff --git a/build/linux/desktop.template b/build/linux/desktop.template
 index f8cf6d962..e59dc7007 100644
 --- a/build/linux/desktop.template
 +++ b/build/linux/desktop.template
-@@ -3,10 +3,10 @@ Type=Application
- Name=Processing
- GenericName=Processing
+@@ -1,10 +1,10 @@
+ [Desktop Entry]
+ Type=Application
+-Name=Processing
+-GenericName=Processing
++Name=Processing IDE
++GenericName=Processing IDE
  Comment=Open-source software prototyping platform
 -Exec=<BINARY_LOCATION> %u
 -Icon=<ICON_NAME>
 +Exec=processing %u
 +Icon=org.processing.processingide
  Terminal=false
--Categories=Development;IDE;Programming;
-+Categories=Development;IDE;
+ Categories=Development;IDE;Programming;
  MimeType=text/x-processing;x-scheme-handler/pde;
- Keywords=sketching;software;animation;programming;coding;
- StartupWMClass=processing-app-ui-Splash
