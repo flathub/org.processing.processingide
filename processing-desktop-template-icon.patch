@@ -15,4 +15,4 @@ index f8cf6d962..e59dc7007 100644
 +Categories=Development;IDE;
  MimeType=text/x-processing;x-scheme-handler/pde;
  Keywords=sketching;software;animation;programming;coding;
- StartupWMClass=processing-app-Base
+ StartupWMClass=processing-app-ui-Splash
