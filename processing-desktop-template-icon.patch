@@ -2,13 +2,9 @@ diff --git a/build/linux/desktop.template b/build/linux/desktop.template
 index f8cf6d962..e59dc7007 100644
 --- a/build/linux/desktop.template
 +++ b/build/linux/desktop.template
-@@ -1,10 +1,10 @@
- [Desktop Entry]
- Type=Application
--Name=Processing
--GenericName=Processing
-+Name=Processing IDE
-+GenericName=Processing IDE
+@@ -3,8 +3,8 @@
+ Name=Processing
+ GenericName=Processing
  Comment=Open-source software prototyping platform
 -Exec=<BINARY_LOCATION> %u
 -Icon=<ICON_NAME>
