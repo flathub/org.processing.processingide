@@ -15,19 +15,19 @@ diff --git a/lib/appdata.xml b/lib/appdata.xml
 +    </screenshot>
 +    <screenshot>
 +      <image>https://raw.githubusercontent.com/processing/processing-website/2023-07-26-143157/content/examples/Topics/Fractals%20and%20L-Systems/Mandelbrot/Mandelbrot.png</image>
-+      <caption>A Mandelbrot set in Processing 4, one of many examples of Processing's capabilities provided by the Processing Foundation themselves</caption>
++      <caption>A Mandelbrot set in Processing 4, an example from the Processing Foundation</caption>
 +    </screenshot>
 +    <screenshot>
 +      <image>https://raw.githubusercontent.com/processing/processing-website/2023-07-26-143157/content/examples/Basics/Color/RadialGradient/RadialGradient.png</image>
-+      <caption>A demonstration of radial gradients in Processing 4, one of many examples of Processing's capabilities provided by the Processing Foundation themselves</caption>
++      <caption>A demo of radial gradients in Processing 4, an example from the Processing Foundation</caption>
 +    </screenshot>
 +    <screenshot>
 +      <image>https://raw.githubusercontent.com/processing/processing-website/2023-07-26-143157/content/examples/Topics/Cellular%20Automata/GameOfLife/GameOfLife.png</image>
-+      <caption>An implementation of Conway's Game of Life in Processing 4, one of many examples of Processing's capabilities provided by the Processing Foundation themselves</caption>
++      <caption>Conway's Game of Life in Processing 4, an example from the Processing Foundation</caption>
 +    </screenshot>
 +    <screenshot>
 +      <image>https://raw.githubusercontent.com/processing/processing-website/2023-07-26-143157/content/examples/Topics/Simulate/MultipleParticleSystems/MultipleParticleSystems.png</image>
-+      <caption>Multiple particle systems, each spawned by a left mouse button click, in Processing 4, one of many examples of Processing's capabilities provided by the Processing Foundation themselves</caption>
++      <caption>Multiple particle systems in Processing 4, an example from the Processing Foundation</caption>
      </screenshot>
    </screenshots>
  
