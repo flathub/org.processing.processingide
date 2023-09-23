@@ -76,7 +76,6 @@
                     "type": "script",
                     "dest-filename": "processing.sh",
                     "commands": [
-                        "#!/bin/sh",
                         "exec /app/share/processing/processing $@"
                     ]
                 }
