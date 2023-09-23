@@ -37,8 +37,14 @@
                 "install -D appdata.xml /app/share/metainfo/org.processing.processingide.appdata.xml",
                 "install -D desktop.template /app/share/applications/org.processing.processingide.desktop",
                 "install -D processing-pde.xml /app/share/mime/packages/org.processing.processingide.xml",
-                "install -D app-64.png /app/share/icons/hicolor/64x64/apps/org.processing.processingide.png",
-                "install -D app-128.png /app/share/icons/hicolor/128x128/apps/org.processing.processingide.png",
+                "install -D lib/icons/app-16.png /app/share/icons/hicolor/16x16/apps/org.processing.processingide.png",
+                "install -D lib/icons/app-32.png /app/share/icons/hicolor/32x32/apps/org.processing.processingide.png",
+                "install -D lib/icons/app-48.png /app/share/icons/hicolor/48x48/apps/org.processing.processingide.png",
+                "install -D lib/icons/app-64.png /app/share/icons/hicolor/64x64/apps/org.processing.processingide.png",
+                "install -D lib/icons/app-128.png /app/share/icons/hicolor/128x128/apps/org.processing.processingide.png",
+                "install -D lib/icons/app-256.png /app/share/icons/hicolor/256x256/apps/org.processing.processingide.png",
+                "install -D lib/icons/app-512.png /app/share/icons/hicolor/512x512/apps/org.processing.processingide.png",
+                "install -D lib/icons/app-1024.png /app/share/icons/hicolor/1024x1024/apps/org.processing.processingide.png",
                 "install -D lib/desktop.template export/share/applications/org.processing.processingide.desktop",
                 "sed -i -e 's|<BINARY_LOCATION>|processing|' -e 's|<ICON_NAME>|org.processing.processingide|' export/share/applications/org.processing.processingide.desktop",
                 "sed -i -e 's|Programming;||' export/share/applications/org.processing.processingide.desktop",
@@ -94,16 +100,6 @@
                     "type": "patch",
                     "path": "processing-desktop-template-icon.patch",
                     "strip-components": 3
-                },
-                {
-                    "type": "file",
-                    "url": "https://raw.githubusercontent.com/processing/processing4/processing-1293-4.3/build/shared/lib/icons/app-64.png",
-                    "sha256": "c1ec0cb93db6421d015d2f7f45eb50fe8da15050c9ee5d4e6456a216a972493f"
-                },
-                {
-                    "type": "file",
-                    "url": "https://raw.githubusercontent.com/processing/processing4/processing-1293-4.3/build/shared/lib/icons/app-128.png",
-                    "sha256": "a68754691f644b70df79c51fde902041fa90a983d34a90890bfe70e19ae8d3f3"
                 },
                 {
                     "type": "script",
