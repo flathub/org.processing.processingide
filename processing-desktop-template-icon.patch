@@ -1,7 +1,7 @@
-diff --git a/build/linux/desktop.template b/build/linux/desktop.template
+diff --git a/lib/desktop.template b/lib/desktop.template
 index f8cf6d962..e59dc7007 100644
---- a/build/linux/desktop.template
-+++ b/build/linux/desktop.template
+--- a/lib/desktop.template
++++ b/lib/desktop.template
 @@ -3,8 +3,8 @@
  Name=Processing
  GenericName=Processing
