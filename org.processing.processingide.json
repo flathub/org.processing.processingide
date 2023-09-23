@@ -50,9 +50,7 @@
                 "install -D lib/icons/app-256.png /app/share/icons/hicolor/256x256/apps/org.processing.processingide.png",
                 "install -D lib/icons/pde-256.png /app/share/icons/hicolor/256x256/mimetypes/org.processing.processingide-text-x-processing.png",
                 "install -D lib/icons/app-512.png /app/share/icons/hicolor/512x512/apps/org.processing.processingide.png",
-                "install -D lib/icons/pde-512.png /app/share/icons/hicolor/512x512/mimetypes/org.processing.processingide-text-x-processing.png",
-                "install -D lib/icons/app-1024.png /app/share/icons/hicolor/1024x1024/apps/org.processing.processingide.png",
-                "install -D lib/icons/pde-1024.png /app/share/icons/hicolor/1024x1024/mimetypes/org.processing.processingide-text-x-processing.png"
+                "install -D lib/icons/pde-512.png /app/share/icons/hicolor/512x512/mimetypes/org.processing.processingide-text-x-processing.png"
             ],
             "sources": [
                 {
