@@ -1,0 +1,64 @@
+diff --git a/lib/appdata.xml b/lib/appdata.xml
+--- a/lib/appdata.xml	2020-04-06 22:17:37.438680993 +0200
++++ b/lib/appdata.xml	2020-04-06 22:18:28.767254529 +0200
+@@ -24,14 +24,48 @@
+ 
+   <screenshots>
+     <screenshot type="default">
++      <image>https://upload.wikimedia.org/wikipedia/commons/0/08/Processing_4.0b1_Screenshot.png</image>
++      <caption>The Processing IDE (version 4.0b1) showing some Java code</caption>
++    </screenshot>
++    <screenshot>
+       <image>https://upload.wikimedia.org/wikipedia/commons/6/6b/Processing_screen_shot.png</image>
+-      <caption>The Processing IDE showing a simple example program</caption>
++      <caption>An earlier version of the Processing IDE showing a simple Brownian Motion simulation</caption>
++    </screenshot>
++    <screenshot>
++      <image>https://raw.githubusercontent.com/processing/processing-website/2023-07-26-143157/content/examples/Topics/Fractals%20and%20L-Systems/Mandelbrot/Mandelbrot.png</image>
++      <caption>A Mandelbrot set in Processing 4, an example from the Processing Foundation</caption>
++    </screenshot>
++    <screenshot>
++      <image>https://raw.githubusercontent.com/processing/processing-website/2023-07-26-143157/content/examples/Basics/Color/RadialGradient/RadialGradient.png</image>
++      <caption>A demo of radial gradients in Processing 4, an example from the Processing Foundation</caption>
++    </screenshot>
++    <screenshot>
++      <image>https://raw.githubusercontent.com/processing/processing-website/2023-07-26-143157/content/examples/Topics/Cellular%20Automata/GameOfLife/GameOfLife.png</image>
++      <caption>Conway's Game of Life in Processing 4, an example from the Processing Foundation</caption>
++    </screenshot>
++    <screenshot>
++      <image>https://raw.githubusercontent.com/processing/processing-website/2023-07-26-143157/content/examples/Topics/Simulate/MultipleParticleSystems/MultipleParticleSystems.png</image>
++      <caption>Multiple particle systems in Processing 4, an example from the Processing Foundation</caption>
+     </screenshot>
+   </screenshots>
+ 
+   <content_rating type="oars-1.1" />
+ 
+   <releases>
++    <release date="2023-07-26" version="4.3" />
++    <release date="2023-02-20" version="4.2" />
++    <release date="2023-02-09" version="4.1.3" />
++    <release date="2023-01-16" version="4.1.2" />
++    <release date="2022-11-28" version="4.1.1" />
++    <release date="2022-11-28" version="4.1" />
++    <release date="2022-11-24" version="4.0.2" />
++    <release date="2022-08-09" version="4.0.1" />
++    <release date="2022-08-09" version="4.0" />
++    <release date="2020-01-17" version="3.5.4" />
++    <release date="2019-02-03" version="3.5.3" />
++    <release date="2019-01-22" version="3.5.2" />
++    <release date="2019-01-21" version="3.5.1" />
++    <release date="2019-01-20" version="3.5" />
+     <release date="2018-07-26" version="3.4" />
+     <release date="2018-07-22" version="3.3.7.2" />
+     <release date="2018-07-01" version="3.3.7.1" />
+@@ -40,8 +74,8 @@
+ 
+   <url type="homepage">http://www.processing.org/</url>
+   <url type="help">https://processing.org/reference/</url>
+-  <url type="bugtracker">https://github.com/processing/processing/issues?q=is%3Aopen</url>
+-  <url type="translate">https://github.com/processing/processing/tree/master/build/shared/lib/languages</url>
++  <url type="bugtracker">https://github.com/processing/processing4/issues?q=is%3Aopen</url>
++  <url type="translate">https://github.com/processing/processing4/tree/main/build/shared/lib/languages</url>
+   <url type="donation">https://processing.org/download/support.html</url>
+ 
+   <update_contact>foundation@processing.org</update_contact>
