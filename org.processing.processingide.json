@@ -57,8 +57,15 @@
             "sources": [
                 {
                     "type": "archive",
+                    "only-arches": "x86_64",
                     "url": "https://github.com/processing/processing4/releases/download/processing-1293-4.3/processing-4.3-linux-x64.tgz",
                     "sha256": "3f655b3076158148e7ca9ac94a380d35b925436a5829e9d653715a3146ef3e33"
+                },
+                {
+                    "type": "archive",
+                    "only-arches": "aarch64",
+                    "url": "https://github.com/processing/processing4/releases/download/processing-1293-4.3/processing-4.3-linux-arm64.tgz",
+                    "sha256": "a9dbcc3e1c1a57e0ea395589db6b5ff319cd206fe7e405dacd2b54a60461c67c"
                 },
                 {
                     "type": "patch",
