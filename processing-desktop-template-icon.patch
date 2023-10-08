@@ -2,7 +2,7 @@ diff --git a/lib/desktop.template b/lib/desktop.template
 index f8cf6d962..e59dc7007 100644
 --- a/lib/desktop.template
 +++ b/lib/desktop.template
-@@ -3,8 +3,8 @@
+@@ -3,10 +3,10 @@
  Name=Processing
  GenericName=Processing
  Comment=Open-source software prototyping platform
@@ -11,5 +11,8 @@ index f8cf6d962..e59dc7007 100644
 +Exec=processing %u
 +Icon=org.processing.processingide
  Terminal=false
- Categories=Development;IDE;Programming;
+-Categories=Development;IDE;Programming;
++Categories=Development;IDE;
  MimeType=text/x-processing;x-scheme-handler/pde;
+ Keywords=sketching;software;animation;programming;coding;
+ StartupWMClass=processing-app-ui-Splash
