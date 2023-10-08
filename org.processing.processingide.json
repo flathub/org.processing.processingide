@@ -33,6 +33,8 @@
             "build-commands": [
                 "install -d /app/share/processing",
                 "cp -r * /app/share/processing",
+                "mkdir /app/share/processing/natives",
+                "cp -r /app/share/processing/core/library/* /app/share/processing/natives",
                 "install -D processing.sh /app/bin/processing",
                 "install -D lib/appdata.xml /app/share/metainfo/org.processing.processingide.appdata.xml",
                 "install -D lib/desktop.template /app/share/applications/org.processing.processingide.desktop",

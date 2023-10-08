@@ -1,7 +1,30 @@
 diff --git a/lib/appdata.xml b/lib/appdata.xml
 --- a/lib/appdata.xml	2020-04-06 22:17:37.438680993 +0200
 +++ b/lib/appdata.xml	2020-04-06 22:18:28.767254529 +0200
-@@ -24,14 +24,48 @@
+@@ -20,18 +20,71 @@
+       to develop interactive applications using different programming
+       languages but mainly Java, Android, Python, and Javascript.
+     </p>
++    <p>
++      Known issues:
++    </p>
++    <ul>
++      <li>
++        Python sketches can run but you may have trouble stopping them
++        running. If so, you will have to use your system monitor application
++        of choice (such as htop) to close the sketch, as it will be the
++        only way to stop the sketch, other than closing the IDE itself.
++        This problem also persists outside of Flatpak.
++        See: https://github.com/flathub/org.processing.processingide/issues/5
++      </li>
++      <li>
++        When trying to open a Python sketch other than an example sketch in
++        the "Examples" dialog, the IDE may crash and close by itself. This
++        problem also persists outside of Flatpak.
++        See: https://github.com/benfry/processing4/issues/793
++      </li>
++    </ul>
+   </description>
  
    <screenshots>
      <screenshot type="default">
@@ -51,14 +74,18 @@ diff --git a/lib/appdata.xml b/lib/appdata.xml
      <release date="2018-07-26" version="3.4" />
      <release date="2018-07-22" version="3.3.7.2" />
      <release date="2018-07-01" version="3.3.7.1" />
-@@ -40,8 +74,8 @@
+@@ -40,9 +93,12 @@
  
    <url type="homepage">http://www.processing.org/</url>
    <url type="help">https://processing.org/reference/</url>
 -  <url type="bugtracker">https://github.com/processing/processing/issues?q=is%3Aopen</url>
 -  <url type="translate">https://github.com/processing/processing/tree/master/build/shared/lib/languages</url>
-+  <url type="bugtracker">https://github.com/processing/processing4/issues?q=is%3Aopen</url>
-+  <url type="translate">https://github.com/processing/processing4/tree/main/build/shared/lib/languages</url>
++  <url type="bugtracker">https://github.com/benfry/processing4/issues?q=is%3Aopen</url>
++  <url type="translate">https://github.com/benfry/processing4/tree/main/build/shared/lib/languages</url>
    <url type="donation">https://processing.org/download/support.html</url>
++  <url type="faq">https://github.com/benfry/processing4/wiki/FAQ</url>
++  <url type="vcs-browser">https://github.com/benfry/processing4/</url>
++  <url type="contribute">https://github.com/benfry/processing4/wiki</url>
  
    <update_contact>foundation@processing.org</update_contact>
+ </component>
