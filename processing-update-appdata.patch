@@ -1,7 +1,7 @@
 diff --git a/lib/appdata.xml b/lib/appdata.xml
 --- a/lib/appdata.xml	2020-04-06 22:17:37.438680993 +0200
 +++ b/lib/appdata.xml	2020-04-06 22:18:28.767254529 +0200
-@@ -20,18 +20,71 @@
+@@ -20,18 +20,78 @@
        to develop interactive applications using different programming
        languages but mainly Java, Android, Python, and Javascript.
      </p>
@@ -22,6 +22,13 @@ diff --git a/lib/appdata.xml b/lib/appdata.xml
 +        the "Examples" dialog, the IDE may crash and close by itself. This
 +        problem also persists outside of Flatpak.
 +        See: https://github.com/benfry/processing4/issues/793
++      </li>
++      <li>
++        Python Mode for Processing is currently unmaintained and a new
++        maintainer is currently being sought after. It can still be downloaded
++        and run via the Contribution Manager by going to the mode selection dialog
++        and clicking "Mode Manager -> Modes -> Python Mode for Processing 4 -> Install".
++        See: https://github.com/jdf/processing.py/blob/1932b4ca71f3befd333cc23d3a1c8fe7617014ff/README.markdown#this-project-is-not-maintained
 +      </li>
 +    </ul>
    </description>
